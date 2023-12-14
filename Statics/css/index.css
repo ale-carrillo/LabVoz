@@ -1,0 +1,47 @@
+body{
+    font-family: 'Raleway', sans-serif !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.navbar-item img {
+    max-height: none !important;
+}
+
+.navbar {
+    border-bottom: 0.2em solid #cd171e;
+}
+/*
+.abstract {
+    background-color: #f3b25b;
+}
+
+.colorB {
+    background-color: #d7f4ff;
+}
+*/
+
+.samples {
+    border: 0.2em solid #cd171e;
+}
+
+h1, h2, h3 , .navbar .title, .samples p.has-text-weight-bold {
+    color: #cd171e !important;    
+}
+
+.footer {
+    background-color: #cd171e !important;
+    color: #fff;
+    margin-top: 4.5em;
+}
+
+.footer p {
+    margin-bottom: 0.4em !important;
+}
+
+.statistics {
+    margin: auto;
+    width: 60%;
+}
